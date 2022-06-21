@@ -34,6 +34,8 @@
     font-size: 34px;
     color: #412c4e;
   }
+   
+    
   .slider-text {
     font-family: Montserrat;
     font-style: normal;
@@ -41,19 +43,8 @@
     font-size: 54px;
     line-height: 80px;
     color: #412c4e;
-     @media screen and (max-width: 500px){
-    margin-left: 0rem!important;
-    font-size: 20px;
-    line-height: 35px;
-    width: 100%;
   }
-     @media screen and (min-width: 500px) and (max-width: 768px){
-    margin-left: 0rem!important;
-    font-size: 28px;
-    line-height: 35px;
-    width: 100%;
-  }
-  }
+    
   .slider-image {
     padding: .7rem 2.3rem 1.5rem 0;
     width: 447px;
@@ -74,4 +65,18 @@ display: none;
 }
 .logout-btn{
     flex-direction: column;
+}
+@media screen and (max-width: 500px){
+    .username{
+    margin-left: 0rem!important;
+    font-size: 23px;
+    line-height: 35px;
+    width: 100%;
+    }
+      .slider-text {
+    margin-left: 0rem!important;
+    font-size: 28px;
+    line-height: 35px;
+    width: 100%;
+  }
 }
