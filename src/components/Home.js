@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React from "react";
 import heroBg from "../../src/assets/images/hero-phone-bg.svg";
 import './home.css'
 
